@@ -1,0 +1,3 @@
+[default]
+# Klucz 256-bitowy typu base64 wygenerowany np. komendą openssl rand -base64 32
+secret_key = ""
