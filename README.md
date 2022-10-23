@@ -9,8 +9,6 @@
 
 ### Wymagania
 
-- [Node.js](https://nodejs.org)
-- [Yarn](https://yarnpkg.org)
 - [Rustup](https://rustup.rs)
 - Lokalna instancja systemu bazodanowego MySQL
 
@@ -35,5 +33,6 @@ DATABASE_URL="mysql://nazwaużytkownika:hasło@localhost/somsiad";
 secret_key = "<wartość>"
 ```
 gdzie `<wartość>` to 256-bitowy klucz w formacie base64, który możesz wygenerować komendą `openssl rand -base64 32`
+
 8. Uruchom program komendą `cargo run --release`.
 9. Strona będzie dostępna pod adresem `http://localhost:8000`
